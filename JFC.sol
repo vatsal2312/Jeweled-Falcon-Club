@@ -16,9 +16,9 @@ pragma solidity ^0.8.0;
  *                      Jeweled Falcon Club by FOREVERCORP | 2022
  */
 
-import "@openzeppelin/contracts/access/Ownable.sol";
-import "@openzeppelin/contracts/utils/cryptography/MerkleProof.sol";
-import "@openzeppelin/contracts/utils/Address.sol";
+import "./Ownable.sol";
+import "./MerkleProof.sol";
+import "./Address.sol";
 import "./ERC721A.sol";
 
 contract JeweledFalconClub is ERC721A, Ownable {
